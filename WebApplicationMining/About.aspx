@@ -22,7 +22,7 @@
             <div class="row z-depth-1">
                 <div class="col s12 m4">
                     <div class="icon-block center-align">
-                        <img src="public/team/team01.png"  class="circle responsive-img" style="padding: 25px;" />
+                        <img src="public/team/team01.png" class="circle responsive-img" style="padding: 25px;" />
                     </div>
                 </div>
                 <div class="col s12 m8">
@@ -86,7 +86,7 @@
             <div class="row z-depth-1">
                 <div class="col s12 m4">
                     <div class="icon-block center-align">
-                        <img src="public/team/team05.png"  class="circle responsive-img" style="padding: 25px;" />
+                        <img src="public/team/team05.png" class="circle responsive-img" style="padding: 25px;" />
                     </div>
                 </div>
                 <div class="col s12 m8">

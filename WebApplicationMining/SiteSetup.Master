@@ -5,14 +5,14 @@
 <html>
 <head runat="server">
     <title>TourElder</title>
-        <link rel="shortcut icon" type="image/ico" href="public/help-the-elderly.ico">
-       <!--Import Google Icon Font-->
-        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-        <!--Import materialize.css-->
-        <link type="text/css" rel="stylesheet" href="./Theme/css/materialize.min.css" media="screen,projection" />
+    <link rel="shortcut icon" type="image/ico" href="public/help-the-elderly.ico">
+    <!--Import Google Icon Font-->
+    <%--<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />--%>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="./Content/css/materialize.min.css" media="screen,projection" />
 
-        <!--Let browser know website is optimized for mobile-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -21,7 +21,8 @@
     <form id="form1" runat="server">
         <nav class="light-blue lighten-1" role="navigation">
             <div class="nav-wrapper container">
-                <a id="logo-container" href="/Home.aspx" class="brand-logo"><img src="public/logo.png" /></a>
+                <a id="logo-container" href="/Home.aspx" class="brand-logo">
+                    <img src="public/logo.png" /></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="/Home.aspx">หน้าแรก</a></li>
                     <li><a href="/About.aspx">เกี่ยวกับเรา</a></li>
@@ -32,7 +33,7 @@
                     <li><a href="/Home.aspx">หน้าแรก</a></li>
                     <li><a href="/About.aspx">เกี่ยวกับเรา</a></li>
                     <li><a href="/Contact.aspx">ติดต่อเรา</a></li>
-                    
+
                 </ul>
 
                 <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -47,26 +48,26 @@
         <footer class="page-footer orange">
             <div class="footer-copyright">
                 <div class="container">
-                  © 2017 Copyright Computer Engineering Student Power by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+                    © 2017 Copyright Computer Engineering Student Power by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
                 </div>
-                              
+
             </div>
         </footer>
-      
+
     </form>
 
-      <!--Import jQuery before materialize.js-->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script type="text/javascript" src="/Theme/js/materialize.min.js"></script>
-        <script>
-            (function ($) {
-                $(function () {
-                    $('.button-collapse').sideNav();
-                    $('.slider').slider();
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="Scripts/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="/Content/js/materialize.min.js"></script>
+    <script>
+        (function ($) {
+            $(function () {
+                $('.button-collapse').sideNav();
+                $('.slider').slider();
 
-                }); // end of document ready
-            })(jQuery);
-        </script>
+            }); // end of document ready
+        })(jQuery);
+    </script>
 
 </body>
 </html>

@@ -3,19 +3,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderbody" runat="server">
-    <%-- <div class="section no-pad-bot" id="index-banner">
-        <div class="container">
-            <br />
-            <br />
-            <h1 class="header center orange-text">หน้าแรก </h1>
-            <div class="row center">
-                <h5 class="header col s12 light">ระบบช่วยตัดสินใจเลือกสถานที่ท่องเที่ยว
-                    <br />
-                    ที่เหมาะสมสำหรับผู้สูงอายุด้วยเทคนิคเหมืองข้อมูล</h5>
-            </div>
-            <br />
-        </div>
-    </div>--%>
 
     <div class="slider">
         <ul class="slides">
@@ -51,11 +38,7 @@
                     <h3>ด้วยเทคนิคเหมืองข้อมูล</h3>
                 </div>
             </li>
-            <li>
-                <img src="picture/pic05.jpg">
-                <!-- random image -->
-            </li>
-        </ul>
+          </ul>
     </div>
 
     <div class="container">
