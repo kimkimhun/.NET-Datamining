@@ -126,11 +126,15 @@
     <Content Include="picture\pic05.jpg" />
     <Content Include="picture\thailand_sea_ocean_boat_rock_95477_1920x1080.jpg" />
     <Content Include="picture\thailand_sea_ocean_boat_rock_95477_750x1334.jpg" />
-    <Content Include="picture\the_beauty_of_thailand_temple_popular_hd-wallpaper-1874843.jpg" />
     <Content Include="public\help-the-elderly.ico" />
     <Content Include="public\logo.png" />
     <Content Include="public\team\team01.png" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="public\team\team02.png" />
+    <Content Include="public\team\team03.png" />
+    <Content Include="public\team\team04.png" />
+    <Content Include="public\team\team05.png" />
     <Content Include="Scripts\jquery-3.1.1.js" />
     <Content Include="Scripts\jquery-3.1.1.min.js" />
     <Content Include="Scripts\jquery-3.1.1.slim.js" />
