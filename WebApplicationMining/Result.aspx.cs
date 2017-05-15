@@ -7,16 +7,17 @@ using System.Web.UI.WebControls;
 
 namespace WebApplicationMining
 {
-    public partial class Home : System.Web.UI.Page
+    public partial class Result : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Home prevPage = this.PreviousPage;
+            if (prevPage != null && prevPage.IsCrossPagePostBack)
+            {
 
-        }
-
-        public string Name
-        {
-            get { return txt1.Text; }
+                var SourceTextBox = prevPage.Name;
+                
+            }
         }
     }
 }
