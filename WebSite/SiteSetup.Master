@@ -7,7 +7,7 @@
     <title>TourElder</title>
     <link rel="shortcut icon" type="image/ico" href="public/help-the-elderly.ico">
     <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="./Content/css/materialize.min.css" media="screen,projection" />
 
@@ -27,6 +27,7 @@
             right: 0;
             bottom: 0;
         }
+
     </style>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
