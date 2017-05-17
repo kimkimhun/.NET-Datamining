@@ -14,13 +14,11 @@
                         <h3 id="h_name" runat="server">อุทยานแห่งชาติสาระวิน </h3>
                     </div>
                     <div class="card-content grey lighten-4">
-                        <span id="span_location" runat="server"><i class="material-icons">location_on</i> ที่ไหน </span><br/>
-                        <span id="span_navigation" runat="server"><i class="material-icons">navigation</i> เดินทาง </span>
+                        <i class="material-icons">location_on</i><span id="span_location" runat="server"> ที่ไหน </span><br/>
+                        <i class="material-icons">navigation</i><span id="span_navigation" runat="server"> เดินทาง </span>
                     </div>
                     <div class="card-content">
-                        <P id="detail" runat="server">
-
-                        </P>
+                        <P id="detail" runat="server"></P>
                     </div>
 
                 </div>

@@ -114,7 +114,7 @@
                     <div class="row">
                         <div class="col s12">
                             <br />
-                            <h5 class="center-align">รายได้ต่อ</h5>
+                            <h5 class="center-align">รายได้</h5>
                             <asp:RadioButtonList ID="RadioBtnSalary" runat="server" RepeatDirection="Horizontal">
                                 <asp:ListItem Value="1" Selected="True">น้อยกว่า 5,000 บาท </asp:ListItem>
                                 <asp:ListItem Value="2">5,000 - 10,000 บาท   </asp:ListItem>

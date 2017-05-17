@@ -58,13 +58,13 @@
                 <a id="logo-container" href="/Home.aspx" class="brand-logo"><img src="public/logo.png" /></a>
                 
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="/Home.aspx">หน้าแรก</a></li>
+                    <li><a href="/Home.aspx">หน้าหลัก</a></li>
                     <li><a href="/About.aspx">เกี่ยวกับเรา</a></li>
                     <li><a href="/Contact.aspx">ติดต่อเรา</a></li>
                 </ul>
 
                 <ul id="nav-mobile" class="side-nav">
-                    <li><a href="/Home.aspx">หน้าแรก</a></li>
+                    <li><a href="/Home.aspx">หน้าหลัก</a></li>
                     <li><a href="/About.aspx">เกี่ยวกับเรา</a></li>
                     <li><a href="/Contact.aspx">ติดต่อเรา</a></li>
 
