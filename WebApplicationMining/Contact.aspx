@@ -49,7 +49,7 @@
                     </div>
                     <div class="row center">
 
-                        <a href="##" id="download-button" class="btn-large waves-effect waves-light blue">ส่งอีเมลล์</a>
+                        <a href="##" id="download-button" class="btn-large waves-effect waves-light green">ส่งอีเมลล์</a>
                     </div>
                 </div>
             </div>

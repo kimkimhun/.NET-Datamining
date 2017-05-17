@@ -56,7 +56,7 @@
         <nav class="light-blue lighten-1" role="navigation">
             <div class="nav-wrapper container">
                 <a id="logo-container" href="/Home.aspx" class="brand-logo"><img src="public/logo.png" /></a>
-                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+                
                 <ul class="right hide-on-med-and-down">
                     <li><a href="/Home.aspx">หน้าแรก</a></li>
                     <li><a href="/About.aspx">เกี่ยวกับเรา</a></li>
@@ -69,7 +69,7 @@
                     <li><a href="/Contact.aspx">ติดต่อเรา</a></li>
 
                 </ul>
-
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
                 
             </div>
         </nav>
@@ -97,17 +97,21 @@
     <script>
         (function ($) {
             $(function () {
-                $('.button-collapse').sideNav({
-                    menuWidth: 300, // Default is 300
-                    edge: 'left', // Choose the horizontal origin
-                    closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
-                    draggable: true // Choose whether you can drag to open on touch screens
-                });
+
                 $('.slider').slider();
 
 
             }); // end of document ready
         })(jQuery);
+    </script>
+    
+    <script>
+        $('.button-collapse').sideNav({
+            menuWidth: 300, // Default is 300
+            edge: 'left', // Choose the horizontal origin
+            closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+            draggable: true // Choose whether you can drag to open on touch screens
+        });
     </script>
     
 <script>

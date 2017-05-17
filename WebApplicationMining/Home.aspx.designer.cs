@@ -22,58 +22,58 @@ namespace WebApplicationMining {
         protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonListGender;
         
         /// <summary>
-        /// RadioButtonListSchool control.
+        /// RadioBtnDisease control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonListSchool;
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioBtnDisease;
         
         /// <summary>
-        /// CheckBoxListDisease control.
+        /// RadioBtnMovementDisorders control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList CheckBoxListDisease;
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioBtnMovementDisorders;
         
         /// <summary>
-        /// CheckBoxListLack control.
+        /// RadioBtnCareer control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList CheckBoxListLack;
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioBtnCareer;
         
         /// <summary>
-        /// CheckBoxListJobs control.
+        /// RadioBtnSalary control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList CheckBoxListJobs;
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioBtnSalary;
         
         /// <summary>
-        /// RadioButtonListSalary control.
+        /// RadioBtnActivity_liking control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonListSalary;
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioBtnActivity_liking;
         
         /// <summary>
-        /// txt1 control.
+        /// RadioBtnTourism_Formats control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt1;
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioBtnTourism_Formats;
         
         /// <summary>
         /// btnOK control.
